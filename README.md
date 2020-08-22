@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Getting and Cleaning Data - Week 4 (Final) Assignment
 
 The repository is created for a peer-graded assignment in Johns Hopkins University's Getting and Cleaning Data course at Coursera.
@@ -54,7 +49,7 @@ To remedy this, a new column is created on the feature list data frame to store 
 
 Another section later will explain why the new variable names should be considered descriptive.
 
-## Step 5: Create independent, tidy data set, with average of each variable for each activity and each subject  
+### Step 5: Create independent, tidy data set, with average of each variable for each activity and each subject  
 Each step up until now are already deliberately designed to lead to the tidy data set that will be created in this set, so there are only a few things left to accomplish step 5. To create this second, independent, tidy data set, the data set is averaged group-wise using ddply, where thr grouping should be based on activiy and subject (one group for each combination of activity and subject), and done column-wise (each variable is averaged separately of other variables). This data set is assigned to a a variable named "tidydata", thus completing step 5.
 
 
@@ -115,7 +110,9 @@ Here is a nice code snippet to help import the data set to your R terminal nicel
 `data <- read.table("tidydata.txt", header = TRUE)`  
 `View(data) # Additional line, works best in R Studio`
 
+
 ## Partial Bibliography
+
 Rather than being an official bibliography, this section is intended to be a place to give a shoutout for articles that I recall contributing a lot in the creation of this README and in my working on the assignment. I am well aware that the things I cite might not be thesis-worthy (my lecturer has regularly told me not to use Wikipedia as a source, for example), and this bibliography, being partial, is also not thesis-worthy, but I intend to give credit and show what articles have contributed to this README assignment. All of them will be written below in APA style, except for google searches.
 
 **
