@@ -45,7 +45,7 @@ An activity label list from "activity_labels.txt" is imported into a data frame,
 ### Step 4: Label data set with descriptive variable names
 From the feature list imported in step 2, the script already has the variable names of each measurement data column. However, the name is still too short and abbreviated. 
 
-To remedy this, a new column is created on the feature list data frame to store a highly descriptive variable name next to the current variable name first. Then, another data frame is created that maps between sections of the old variable name (such as "acc", "std", "X" at the end of the variable name) and more descriptive counterparts (such as "Acceleration", "StandardDeviation", "X-Axis"). The sections are carefully ordered so that when iterated to fill the new column in the feature list data frame, it would make a new and more descriptive variable name that are appropriately word order-wise. After doing so, using the newly-populated descriptive variable name column, the data set's column names are replaced with the new descriptive variable names.
+To remedy this, a new column is created on the feature list data frame to store a highly descriptive variable name next to the current variable name first. Then, another data frame is created that maps between sections of the old variable name (such as "acc", "std", "X" at the end of the variable name) and more descriptive counterparts (such as "Acceleration", "StandardDeviation", "X-Axis"). The sections are carefully ordered so that when iterated to fill the new column in the feature list data frame, it would make a new and more descriptive variable name that are appropriate word order-wise. After doing so, using the newly-populated descriptive variable name column, the data set's column names are replaced with the new descriptive variable names.
 
 Another section later will explain why the new variable names should be considered descriptive.
 
@@ -127,6 +127,8 @@ Jerk (physics). (n.d.). In *Wikipedia*. Retrieved 19 August 2020, from https://e
 
 Kinsellagh, J. (2020, August 16). *What is a Frequency Spectrum?*. Retrieved 9 August 2020, from https://www.wisegeek.com/what-is-a-frequency-spectrum.htm
 
-Phinyomark, A., Thongpanja, S., Hu, H., Phukpattaranont, P., & Limsakul, C. (2012). *The Usefulness of Mean and Median Frequencies in Electromyography Analysis. Computational Intelligence in Electromyography Analysis - A Perspective on Current Applications and Future Challenges*. doi:10.5772/50639
+Phinyomark, A., Thongpanja, S., Hu, H., Phukpattaranont, P., & Limsakul, C. (2012). The Usefulness of mean and median frequencies in electromyography analysis. In G. R. Naik (Eds.), *Computational intelligence in electromyography analysis - a perspective on current applications and future challenges* (pp. 195-220). IntechOpen. https://doi.org/10.5772/50639
 
 user3494047. (2017, January 27). *Measuring the average frequency of signals* [Online forum post]. Stack Exchange. https://dsp.stackexchange.com/questions/37229/measuring-the-average-frequency-of-signals
+
+Wickham, H. (2014). Tidy data. *Journal of Statistical Software*, 59(10). https://doi.org/10.18637/jss.v059.i10
